@@ -41,8 +41,8 @@ const Users = () => {
             setUsers(JSON.parse(savedUsers));
         } else {
             const initialUsers = [
-                { id: '1', name: 'Alice Johnson', email: 'superadmin@marshallethel.com', password: 'password', role: 'SuperAdmin', status: 'Active' },
-                { id: '2', name: 'Bob Smith', email: 'admin@marshallethel.com', password: 'password', role: 'Admin', status: 'Active' },
+                { id: '1', name: 'Alice Johnson', email: 'superadmin@dreamshub.com', password: 'password', role: 'SuperAdmin', status: 'Active' },
+                { id: '2', name: 'Bob Smith', email: 'admin@dreamshub.com', password: 'password', role: 'Admin', status: 'Active' },
             ];
             setUsers(initialUsers);
             localStorage.setItem('system_users', JSON.stringify(initialUsers));

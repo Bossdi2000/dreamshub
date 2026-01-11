@@ -127,7 +127,7 @@ const AuditLog = () => {
             <div className="hidden print:block mb-8 border-b-2 border-primary pb-6">
                 <div className="flex justify-between items-end">
                     <div>
-                        <h1 className="text-4xl font-black tracking-tighter uppercase text-primary">Marshall Ethel</h1>
+                        <h1 className="text-4xl font-black tracking-tighter uppercase text-primary">Dreams Hub</h1>
                         <p className="text-sm font-bold tracking-widest uppercase opacity-70">Logistics & Inventory Hub • Audit Report</p>
                     </div>
                     <div className="text-right text-xs">

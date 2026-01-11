@@ -61,7 +61,7 @@ const Dashboard = () => {
       setIsAmountVisible(false);
     } else {
       const code = prompt("Enter Secret Code to Reveal Financials:");
-      if (code === "MARSHAL01") {
+      if (code === "DREAM01") {
         setIsAmountVisible(true);
         toast.success("Financial data unlocked");
       } else {
@@ -82,7 +82,7 @@ const Dashboard = () => {
       {/* Page Header */}
       <div className="mb-6 flex items-center justify-between">
         <div>
-          <h1 className="text-2xl font-bold font-display text-foreground tracking-tight">Marshall Ethel Main Hub</h1>
+          <h1 className="text-2xl font-bold font-display text-foreground tracking-tight">Dreams Hub Main Hub</h1>
           <p className="text-muted-foreground mt-1">
             Precision control for your enterprise.
           </p>

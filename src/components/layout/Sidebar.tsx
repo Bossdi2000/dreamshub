@@ -137,9 +137,9 @@ export const Sidebar = ({
                 className="overflow-hidden"
               >
                 <span className="font-black text-foreground whitespace-nowrap text-sm tracking-tighter uppercase block leading-none">
-                  Marshall Ethel
+                  Dreams Hub
                 </span>
-                <span className="text-[9px] text-primary block whitespace-nowrap leading-none mt-1 uppercase tracking-[0.2em] font-black italic">NID. LTD</span>
+                <span className="text-[9px] text-primary block whitespace-nowrap leading-none mt-1 uppercase tracking-[0.2em] font-black italic">Logistics & Hub</span>
               </motion.div>
             )}
           </AnimatePresence>

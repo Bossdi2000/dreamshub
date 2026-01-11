@@ -26,8 +26,8 @@ export const LoginForm = () => {
             // Get users from localStorage or use defaults
             const savedUsers = localStorage.getItem('system_users');
             const users = savedUsers ? JSON.parse(savedUsers) : [
-                { id: '1', name: 'Alice Johnson', email: 'superadmin@marshallethel.com', password: 'password', role: 'SuperAdmin' },
-                { id: '2', name: 'Bob Smith', email: 'admin@marshallethel.com', password: 'password', role: 'Admin' }
+                { id: '1', name: 'Alice Johnson', email: 'superadmin@dreamshub.com', password: 'password', role: 'SuperAdmin' },
+                { id: '2', name: 'Bob Smith', email: 'admin@dreamshub.com', password: 'password', role: 'Admin' }
             ];
 
             const user = users.find((u: any) => u.email === email && u.password === password);
@@ -82,7 +82,7 @@ export const LoginForm = () => {
                     </div>
                     <h1 className="text-2xl font-bold tracking-tight">Enterprise Login</h1>
                     <p className="text-sm text-muted-foreground mt-2">
-                        Secure access to Marshall Ethel Inventory & Logistics
+                        Secure access to Dreams Hub Inventory & Logistics
                     </p>
                 </div>
 
@@ -94,7 +94,7 @@ export const LoginForm = () => {
                             <Input
                                 id="email"
                                 type="email"
-                                placeholder="name@marshallethel.com"
+                                placeholder="name@dreamshub.com"
                                 className="pl-10 bg-muted/30 border-transparent focus:border-primary/20"
                                 value={email}
                                 onChange={(e) => setEmail(e.target.value)}

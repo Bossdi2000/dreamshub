@@ -110,12 +110,12 @@ const Receipt = () => {
                         {/* Center - Business Name */}
                         <div className="flex-1 text-left">
                             <h1 className="text-3xl font-black text-red-600 tracking-widest" style={{ fontFamily: 'Arial Black, sans-serif' }}>
-                                MARSHALL ETHEL NIG. LTD.
+                                DREAMS HUB LOGISTICS LTD.
                             </h1>
                             <div className="border-2 border-red-600 text-black text-[9px] px-3 py-1 mx-auto mt-1 font-bold" style={{ maxWidth: '400px' }}>
-                                Dealers on Electronics / Electrical such as:<br />
-                                Fridge, TV sets, Plasma, CDs, VCDs, Air conditioners,<br />
-                                Generating sets, Electric Wires, Accessories fittings, etc.
+                                Experts in Stock Synchronization,<br />
+                                Inventory Management, Retail Analytics,<br />
+                                and Global Logistics Solutions.
                             </div>
                         </div>
 
@@ -127,10 +127,10 @@ const Receipt = () => {
                         {/* Head Office */}
                         <div className="text-[9px] leading-tight">
                             <p className="font-black text-red-600">HEAD OFFICE:</p>
-                            <p>No. 10 Oko Road</p>
-                            <p>Ekwulobia, Aguata L.G.A</p>
-                            <p>Anambra State.</p>
-                            <p className="font-black text-red-600">08069818905</p>
+                            <p>Main Hub, Dreams Plaza</p>
+                            <p>Central Logistics District</p>
+                            <p>International Zone.</p>
+                            <p className="font-black text-red-600">+234 Dreams Hub</p>
                         </div>
 
                         {/* Tagged Images Section */}
@@ -149,12 +149,10 @@ const Receipt = () => {
                         {/* Branch Office */}
                         <div className="text-[9px] leading-tight text-right">
                             <p className="font-black text-red-600">BRANCH OFFICE:</p>
-                            <p>No. 9 Oko Road</p>
-                            <p>Ekwulobia,</p>
-                            <p>Aguata L.G.A</p>
-                            <p>Anambra State.</p>
-                            <p className="font-black text-red-600">09122430843</p>
-                            <p className="font-black text-red-600">08130087873</p>
+                            <p>West Wing Hub</p>
+                            <p>Tech Corridor,</p>
+                            <p>Support Zone</p>
+                            <p className="font-black text-red-600">Operations Team</p>
                         </div>
                     </div>
 
@@ -295,7 +293,7 @@ const Receipt = () => {
                         </div>
                         <div className="text-center">
                             <div className="border-t border-black w-40 pt-1">
-                                <p className="font-black">For: MARSHALL ETHEL NIG. LTD.</p>
+                                <p className="font-black">For: DREAMS HUB LOGISTICS LTD.</p>
                             </div>
                         </div>
                     </div>
@@ -310,7 +308,7 @@ const Receipt = () => {
                 <div className="text-[8px] p-2 bg-red-50 border border-blue-600">
                     <div className="flex justify-between items-start mb-2">
                         <div>
-                            <p className="font-black text-red-600 text-[10px]">MARSHALL ETHEL NIG. LTD. - BUSINESS COPY</p>
+                            <p className="font-black text-red-600 text-[10px]">DREAMS HUB LOGISTICS LTD. - BUSINESS COPY</p>
                             <p className="font-bold">Receipt No: {receiptNo} | Date: {day}/{month}/{year}</p>
                         </div>
                         <div className="text-right">

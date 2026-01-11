@@ -16,8 +16,8 @@ const Login = () => {
                     className="mb-8 flex flex-col items-center"
                 >
                     <div className="flex items-center gap-3">
-                        <span className="text-3xl font-black tracking-tighter uppercase bg-clip-text text-transparent bg-gradient-to-r from-primary to-gold">Marshall</span>
-                        <span className="px-2 py-0.5 bg-gold border border-gold/20 text-gold-foreground rounded text-[10px] font-black uppercase tracking-widest shadow-lg shadow-gold/20">Ethel</span>
+                        <span className="text-3xl font-black tracking-tighter uppercase bg-clip-text text-transparent bg-gradient-to-r from-primary to-gold">Dreams</span>
+                        <span className="px-2 py-0.5 bg-gold border border-gold/20 text-gold-foreground rounded text-[10px] font-black uppercase tracking-widest shadow-lg shadow-gold/20">Hub</span>
                     </div>
                 </motion.div>
 
